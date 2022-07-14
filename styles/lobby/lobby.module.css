@@ -1,0 +1,30 @@
+.header {
+  padding: 1em;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  cursor: default;
+}
+.table td, .table th {
+  border: 1px solid transparent;
+  padding: 8px;
+}
+.table td {
+  cursor: pointer;
+}
+
+.table tr:nth-child(even){
+  background: var(--light);
+}
+
+.table tr:hover {
+  background: var(--light-brown);
+}
+
+.table th {
+  padding: 12px;
+  text-align: left;
+  background: var(--brown);
+  color: white;
+}
